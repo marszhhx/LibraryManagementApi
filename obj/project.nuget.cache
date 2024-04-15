@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BwWPPwT8m+jz7/ww9h29U6YjnUGwXk5iitwJi6zIfPid7/dtan10iWW/4dlLIwuHM+3cM+xppMVxRF23ZKryrg==",
+  "dgSpecHash": "XA06zmT5dkT9tNCJA8wcn26xqBoiq20/VsY+dYq2mggKjq1ghnugy2MK06iT13YBHSi/Mff/qKo6d76sjGnHqw==",
   "success": true,
   "projectFilePath": "/Users/Mars/Coding-Projects/fdu/adv_application_programming/LibraryManagementApi/LibraryManagementApi.csproj",
   "expectedPackageFiles": [
@@ -84,6 +84,7 @@
     "/Users/Mars/.nuget/packages/microsoft.entityframeworkcore.inmemory/8.0.4/microsoft.entityframeworkcore.inmemory.8.0.4.nupkg.sha512",
     "/Users/Mars/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.4/microsoft.entityframeworkcore.relational.8.0.4.nupkg.sha512",
     "/Users/Mars/.nuget/packages/microsoft.entityframeworkcore.sqlserver/8.0.4/microsoft.entityframeworkcore.sqlserver.8.0.4.nupkg.sha512",
+    "/Users/Mars/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.4/microsoft.entityframeworkcore.tools.8.0.4.nupkg.sha512",
     "/Users/Mars/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/Mars/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/Mars/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
