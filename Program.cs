@@ -1,9 +1,10 @@
-using LibraryManagementApi.Data;
+using LibraryManagementApi.Models;
+
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
-
 builder.Services.AddDbContext<ApplicationDbContext>(opt =>
     opt.UseInMemoryDatabase("LibraryManagementAPI"));
 
