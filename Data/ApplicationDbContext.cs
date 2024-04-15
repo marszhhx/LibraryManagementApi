@@ -1,5 +1,7 @@
+using LibraryManagementApi.Models;
 using Microsoft.EntityFrameworkCore;
-namespace LibraryManagementApi.Models;
+
+namespace LibraryManagementApi.Data;
 
 public class ApplicationDbContext : DbContext
 {

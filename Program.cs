@@ -1,7 +1,8 @@
+using LibraryManagementApi.Data;
 using Microsoft.EntityFrameworkCore;
-using LibraryManagementApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
 
 builder.Services.AddDbContext<ApplicationDbContext>(opt =>
     opt.UseInMemoryDatabase("LibraryManagementAPI"));
@@ -42,6 +43,7 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+app.MapControllers();
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
